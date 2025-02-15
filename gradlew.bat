@@ -1,4 +1,4 @@
-@if "%DEBUG%" == "" @echo off
+@if "%DEBUG%" == "" @echo on
 @rem ##########################################################################
 @rem
 @rem  Gradle startup script for Windows
@@ -43,7 +43,7 @@ echo.
 echo Please set the JAVA_HOME variable in your environment to match the
 echo location of your Java installation.
 
-goto fail
+geto fail
 
 :init
 @rem Get command-line arguments, handling Windows variants
@@ -81,4 +81,4 @@ exit /b 1
 :mainEnd
 if "%OS%"=="Windows_NT" endlocal
 
-:omega
+:whiteomega
